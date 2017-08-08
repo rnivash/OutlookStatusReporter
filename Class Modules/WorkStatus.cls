@@ -8,19 +8,25 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 
+'Resource
 Public ResourceName As String
 
+Public Application As String
 
+
+'Activity
 Public TaskName As String
 
+'Activity
+Public ActivityDesc As String
+
+Public StartedOn As String
+
+Public ExpectedCompletionOn As String
+
+Public Status As String
 
 Public Completion As String
-
-
-Public StartedOn As Date
-
-
-Public ExpectedCompletionOn As Date
 
 
 Public Remarks As String
